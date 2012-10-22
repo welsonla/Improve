@@ -10,6 +10,8 @@
 
 #import "ViewController.h"
 
+#import "PractBase64.h"
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -17,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    PractBase64 *practBase64 = [[PractBase64 alloc] init];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];

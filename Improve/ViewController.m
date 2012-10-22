@@ -8,16 +8,28 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
+@synthesize listTable;
+@synthesize listArray;
+
 - (void)viewDidLoad
 {
+    
+    listTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) style:UITableViewStylePlain];
+    [listTable setDelegate:self];
+    [listTable setDataSource:self];
+    [self.view addSubview:listTable];
+    
+    
+    listArray = [NSArray arrayWithObjects:@"Base64",@"XML", nil];
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
@@ -29,6 +41,24 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+#pragma mark -
+#pragma mark tableView delegate method
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [listArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if(cell == nil){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"cell"];
+    }
+    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+    [cell.textLabel setTextAlignment:UITextAlignmentLeft];
+    [cell.textLabel setText:[listArray objectAtIndex:indexPath.row]];
+    return cell;
 }
 
 @end

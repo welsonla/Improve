@@ -15,6 +15,12 @@
 		0EC5B8BC1634E45F00C7C1C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8BB1634E45F00C7C1C8 /* AppDelegate.m */; };
 		0EC5B8BF1634E45F00C7C1C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8BE1634E45F00C7C1C8 /* ViewController.m */; };
 		0EC5B8C21634E45F00C7C1C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5B8C01634E45F00C7C1C8 /* ViewController.xib */; };
+		0EC5B8CA1634E56400C7C1C8 /* PractBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8C91634E56400C7C1C8 /* PractBase64.m */; };
+		0EC5B8D01634E70900C7C1C8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8CD1634E70900C7C1C8 /* NSData+Base64.m */; };
+		0EC5B8D11634E70900C7C1C8 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8CF1634E70900C7C1C8 /* NSString+Base64.m */; };
+		0EC5B8D51634EBF100C7C1C8 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8D41634EBF100C7C1C8 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		0EC5B8D71634ED4400C7C1C8 /* movie.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5B8D61634ED4400C7C1C8 /* movie.xml */; };
+		0EC5B8D91634F3EC00C7C1C8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC5B8D81634F3EC00C7C1C8 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,16 @@
 		0EC5B8BD1634E45F00C7C1C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0EC5B8BE1634E45F00C7C1C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0EC5B8C11634E45F00C7C1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0EC5B8C81634E56400C7C1C8 /* PractBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PractBase64.h; path = Improve/PractBase64.h; sourceTree = "<group>"; };
+		0EC5B8C91634E56400C7C1C8 /* PractBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PractBase64.m; path = Improve/PractBase64.m; sourceTree = "<group>"; };
+		0EC5B8CC1634E70900C7C1C8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		0EC5B8CD1634E70900C7C1C8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		0EC5B8CE1634E70900C7C1C8 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		0EC5B8CF1634E70900C7C1C8 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		0EC5B8D31634EBF100C7C1C8 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		0EC5B8D41634EBF100C7C1C8 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		0EC5B8D61634ED4400C7C1C8 /* movie.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = movie.xml; sourceTree = "<group>"; };
+		0EC5B8D81634F3EC00C7C1C8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC5B8D91634F3EC00C7C1C8 /* libxml2.dylib in Frameworks */,
 				0EC5B8AC1634E45F00C7C1C8 /* UIKit.framework in Frameworks */,
 				0EC5B8AE1634E45F00C7C1C8 /* Foundation.framework in Frameworks */,
 				0EC5B8B01634E45F00C7C1C8 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +67,9 @@
 		0EC5B89C1634E45F00C7C1C8 = {
 			isa = PBXGroup;
 			children = (
+				0EC5B8D81634F3EC00C7C1C8 /* libxml2.dylib */,
+				0EC5B8D21634EA5E00C7C1C8 /* Xml */,
+				0EC5B8CB1634E56900C7C1C8 /* Base64 */,
 				0EC5B8B11634E45F00C7C1C8 /* Improve */,
 				0EC5B8AA1634E45F00C7C1C8 /* Frameworks */,
 				0EC5B8A81634E45F00C7C1C8 /* Products */,
@@ -96,6 +116,29 @@
 				0EC5B8B91634E45F00C7C1C8 /* Improve-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EC5B8CB1634E56900C7C1C8 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				0EC5B8CC1634E70900C7C1C8 /* NSData+Base64.h */,
+				0EC5B8CD1634E70900C7C1C8 /* NSData+Base64.m */,
+				0EC5B8CE1634E70900C7C1C8 /* NSString+Base64.h */,
+				0EC5B8CF1634E70900C7C1C8 /* NSString+Base64.m */,
+				0EC5B8C81634E56400C7C1C8 /* PractBase64.h */,
+				0EC5B8C91634E56400C7C1C8 /* PractBase64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
+		0EC5B8D21634EA5E00C7C1C8 /* Xml */ = {
+			isa = PBXGroup;
+			children = (
+				0EC5B8D31634EBF100C7C1C8 /* GDataXMLNode.h */,
+				0EC5B8D41634EBF100C7C1C8 /* GDataXMLNode.m */,
+				0EC5B8D61634ED4400C7C1C8 /* movie.xml */,
+			);
+			name = Xml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +193,7 @@
 			files = (
 				0EC5B8B61634E45F00C7C1C8 /* InfoPlist.strings in Resources */,
 				0EC5B8C21634E45F00C7C1C8 /* ViewController.xib in Resources */,
+				0EC5B8D71634ED4400C7C1C8 /* movie.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +207,10 @@
 				0EC5B8B81634E45F00C7C1C8 /* main.m in Sources */,
 				0EC5B8BC1634E45F00C7C1C8 /* AppDelegate.m in Sources */,
 				0EC5B8BF1634E45F00C7C1C8 /* ViewController.m in Sources */,
+				0EC5B8CA1634E56400C7C1C8 /* PractBase64.m in Sources */,
+				0EC5B8D01634E70900C7C1C8 /* NSData+Base64.m in Sources */,
+				0EC5B8D11634E70900C7C1C8 /* NSString+Base64.m in Sources */,
+				0EC5B8D51634EBF100C7C1C8 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +286,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Improve/Improve-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Improve/Improve-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -249,7 +299,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Improve/Improve-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Improve/Improve-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
