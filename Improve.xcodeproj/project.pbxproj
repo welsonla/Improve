@@ -22,13 +22,13 @@
 		0EC5B8AB1634E45F00C7C1C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EC5B8AD1634E45F00C7C1C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EC5B8AF1634E45F00C7C1C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0EC5B8B31634E45F00C7C1C8 /* Improve-Info.plist */ = {isa = PBXFileReference; path = "Improve-Info.plist"; sourceTree = "<group>"; };
+		0EC5B8B31634E45F00C7C1C8 /* Improve-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Improve-Info.plist"; sourceTree = "<group>"; };
 		0EC5B8B51634E45F00C7C1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EC5B8B71634E45F00C7C1C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0EC5B8B91634E45F00C7C1C8 /* Improve-Prefix.pch */ = {isa = PBXFileReference; path = "Improve-Prefix.pch"; sourceTree = "<group>"; };
-		0EC5B8BA1634E45F00C7C1C8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EC5B8B91634E45F00C7C1C8 /* Improve-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Improve-Prefix.pch"; sourceTree = "<group>"; };
+		0EC5B8BA1634E45F00C7C1C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EC5B8BB1634E45F00C7C1C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0EC5B8BD1634E45F00C7C1C8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0EC5B8BD1634E45F00C7C1C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0EC5B8BE1634E45F00C7C1C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0EC5B8C11634E45F00C7C1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
