@@ -21,6 +21,7 @@
 		0EC5B8D51634EBF100C7C1C8 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8D41634EBF100C7C1C8 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
 		0EC5B8D71634ED4400C7C1C8 /* movie.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0EC5B8D61634ED4400C7C1C8 /* movie.xml */; };
 		0EC5B8D91634F3EC00C7C1C8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC5B8D81634F3EC00C7C1C8 /* libxml2.dylib */; };
+		0EC5B8DC163515DE00C7C1C8 /* PractBase64ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5B8DB163515DE00C7C1C8 /* PractBase64ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		0EC5B8D41634EBF100C7C1C8 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		0EC5B8D61634ED4400C7C1C8 /* movie.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = movie.xml; sourceTree = "<group>"; };
 		0EC5B8D81634F3EC00C7C1C8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0EC5B8DA163515DE00C7C1C8 /* PractBase64ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PractBase64ViewController.h; sourceTree = "<group>"; };
+		0EC5B8DB163515DE00C7C1C8 /* PractBase64ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PractBase64ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				0EC5B8CF1634E70900C7C1C8 /* NSString+Base64.m */,
 				0EC5B8C81634E56400C7C1C8 /* PractBase64.h */,
 				0EC5B8C91634E56400C7C1C8 /* PractBase64.m */,
+				0EC5B8DA163515DE00C7C1C8 /* PractBase64ViewController.h */,
+				0EC5B8DB163515DE00C7C1C8 /* PractBase64ViewController.m */,
 			);
 			name = Base64;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				0EC5B8D01634E70900C7C1C8 /* NSData+Base64.m in Sources */,
 				0EC5B8D11634E70900C7C1C8 /* NSString+Base64.m in Sources */,
 				0EC5B8D51634EBF100C7C1C8 /* GDataXMLNode.m in Sources */,
+				0EC5B8DC163515DE00C7C1C8 /* PractBase64ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,7 +64,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row==0) {
-        
+        PractBase64ViewController *base64Controller = [[PractBase64ViewController alloc] initWithNibName:nil bundle:nil];
+        [self.navigationController pushViewController:base64Controller animated:YES];
     }
 }
 

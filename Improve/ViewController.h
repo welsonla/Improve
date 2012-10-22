@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PractBase64ViewController.h"
 
 @interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
