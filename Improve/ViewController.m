@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad
 {
+    self.title = @"CodeLibs";
     
     listTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) style:UITableViewStylePlain];
     [listTable setDelegate:self];
@@ -59,6 +60,12 @@
     [cell.textLabel setTextAlignment:UITextAlignmentLeft];
     [cell.textLabel setText:[listArray objectAtIndex:indexPath.row]];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row==0) {
+        
+    }
 }
 
 @end
